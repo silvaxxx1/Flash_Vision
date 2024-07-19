@@ -123,3 +123,6 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
     main(args)
+ 
+# make sure to modify this according to the path of TF2 Object Detction API     
+# python detect_from_webcam.py -m C:\Users\USER\SILVA\TF2_CV_Repo\models\MyModelHub\faster_rcnn_resnet50_coco_2018_01_28\saved_model -l C:\Users\USER\SILVA\TF2_OD_API\models\research\object_detection\data\mscoco_label_map.pbtxt  -o C:\Users\USER\SILVA\TF2_CV_Repo\detection\outputs

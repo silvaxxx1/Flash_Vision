@@ -1,1 +1,11 @@
+tensorflow
+tensorflow_datasets
+numpy
+pandas
+matplotlib
+scipy
+pillow
+opencv-python
+lxml
+labelimg 
 

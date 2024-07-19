@@ -1,0 +1,26 @@
+<annotation>
+	<folder>kendrick_lamar</folder>
+	<filename>MV5BMTcwMzMxOTg2NF5BMl5BanBnXkFtZTgwMjA2ODExNjE@._V1_FMjpg_UX1000_.jpg</filename>
+	<path>C:\Users\USER\SILVA\TF2_CV_Repo\retrain\dataset\kendrick_lamar\MV5BMTcwMzMxOTg2NF5BMl5BanBnXkFtZTgwMjA2ODExNjE@._V1_FMjpg_UX1000_.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1000</width>
+		<height>1332</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>kendrick</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>239</xmin>
+			<ymin>72</ymin>
+			<xmax>752</xmax>
+			<ymax>800</ymax>
+		</bndbox>
+	</object>
+</annotation>

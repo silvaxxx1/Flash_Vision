@@ -1,6 +1,7 @@
 import os
 import tarfile
 import wget
+import argparse
 
 def model_download(url, output_dir):
     """
@@ -33,7 +34,10 @@ def model_download(url, output_dir):
         print(f"The model {filename} is already in dir {output_dir}")
 
 if __name__ == '__main__':
-    # URL of the model to be downloaded
-    model_url = "http://download.tensorflow.org/models/object_detection/faster_rcnn_resnet50_coco_2018_01_28.tar.gz"
-    # Call the model_download function
-    model_download(model_url, "./MyModelHub")
+    parser = argparse.ArgumentParser(description="Download and extract a model from a specified URL.")
+    parser.add_argument('url', type=str, help="The URL of the model to download.")
+    parser.add_argument('output_dir', type=str, help="The directory where the model will be saved and extracted.")
+
+    args = parser.parse_args()
+
+    model_download(args.url, args.output_dir)
